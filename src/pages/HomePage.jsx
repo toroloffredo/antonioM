@@ -1,11 +1,14 @@
-
+import Navbar from "../components/navbar";
+import StickyFooter from "../components/footer";
 
 function HomePage() {
   return (
     <>
-      <div>
-        <h1>Home Page</h1>
+      <Navbar />
+      <div className="header">
+        <h1>Antonio Maties Home Page</h1>
       </div>
+      <StickyFooter />
     </>
   );
 }
